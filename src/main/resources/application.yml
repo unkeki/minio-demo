@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: minio-demo
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+#  minio??
+  minio:
+    access-key: minio-accsee-key
+    secret-key: minio-secret-key
+    url: 127.0.0.1:9090
+    bucket-name: test
+server:
+  port: 8080
